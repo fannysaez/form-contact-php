@@ -33,7 +33,6 @@ Ce projet est un formulaire de contact simple et sécurisé, développé en PHP.
 ## Procédure d'installation de git clone
 <br>
 
-
 ## Cloner le dépôt GitHub :
 - Ouvrez l'invite de commande <b>(cmd)</b> ou <b>Git Bash.</b><br><br>
 
