@@ -1,16 +1,48 @@
+J'ai travaillé sur ce projet avec@HeyAnto et aider par le formateur @GuillaumePons63. Merci :)
+
 # Formulaire de Contact PHP
 Réalisation d'un formulaire de contact en PHP
 
+## Description du Projet
+
+Ce projet est un formulaire de contact simple et sécurisé, développé en PHP. Il permet aux utilisateurs de saisir leurs informations (prénom, nom, email, objet et message) et d'envoyer ces données via email en utilisant la bibliothèque [**PHPMailer**](https://github.com/PHPMailer/PHPMailer). Le projet utilise également la bibliothèque [**PHP dotenv**](https://github.com/vlucas/phpdotenv) pour charger les variables d'environnement depuis un fichier `.env`. Ce projet a été réalisé dans le cadre d'un brief "Réaliser un formulaire de contact avec PHP" [**SIMPLON**](https://www.simplon.co/).
+
+## Prérequis
+
+* **PHP 8.3.14** ou supérieur
+* [**Composer 2.8.5**](https://getcomposer.org/) ou supérieur
+* Un serveur SMTP pour l'envoi d'emails (ex: Gmail, Outlook, etc.)
+
+## Structure du Projet
+
+```bash
+ Form Contact PHP
+ ┣ 📂assets
+  ┃ ┣ 📜.env.exemple (modifiez les valeurs)
+ ┃ ┣ 📂css
+ ┃ ┃ ┗ 📝styles.css
+ ┃ ┃ 📂img
+ ┣ 📁src
+ ┣ ⚙️.gitignore
+ ┣ 📜composer.json
+ ┣ 📜composer.lock
+ ┗ 📄index.php
+ ┗ 📄traitementMail.php
+```
+
 ## Procédure d'installation de git clone
-Pour <b>cloner un dépôt Git</b> dans un dossier sur votre machine locale sous <b>Windows</b> :
+<br>
 
-## Installer Git :
-- Téléchargez et installez Git depuis <b> [git-scm.com](https://git-scm.com)
-  </b><br>
-- Vérifiez l'installation en exécutant <b>git --version </b>dans l'invite de commande.
 
-## Cloner le dépôt :
+## Cloner le dépôt GitHub :
 - Ouvrez l'invite de commande <b>(cmd)</b> ou <b>Git Bash.</b><br><br>
+
+Commencez par cloner le dépôt sur votre machine locale :
+
+```bash
+git clone https://github.com/fannysaez/Form-Contact-Php.git
+cd Form-Contact-Php
+```
   <img src="/assets/img/Depot Git/screenshot.png"></br>
 
 ## Accéder au dossier cloné :
