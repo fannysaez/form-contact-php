@@ -1,4 +1,4 @@
-J'ai travaillé sur ce projet avec@HeyAnto et aider par le formateur @GuillaumePons63. Merci :)
+J'ai travaillé sur ce projet avec [**@Anto**](https://github.com/HeyAnto) et aider par le formateur [**@GuillaumePons63**](https://github.com/GuillaumePons63)  Merci :)
 
 # Formulaire de Contact PHP
 Réalisation d'un formulaire de contact en PHP
