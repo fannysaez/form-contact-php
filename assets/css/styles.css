@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+main {
+    background: white;
+    padding: 80px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+
+form {
+    text-align: left;
+    padding: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-bottom: 25px; 
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 105%;
+    margin-top:15px;
+}
+
+/* Aligner "Nom" et "Prénom" côte à côte, en colonne sur mobile */
+form > div:first-of-type {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 15px;
+}
+
+form > div:first-of-type > div {
+    flex: 1;
+}
+
+/* @media (max-width: 480px) {
+    form > div:first-of-type {
+        flex-direction: column;
+        gap: 10px;
+    }
+} */

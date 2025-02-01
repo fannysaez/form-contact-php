@@ -1,0 +1,18 @@
+{
+    "name": "fanny/form-contact-php",
+    "description": "formulaire réutilisable",
+    "autoload": {
+        "psr-4": {
+            "Fanny\\FormContactPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yes"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
