@@ -43,10 +43,6 @@ Commencez par cloner le dépôt sur votre machine locale :
 git clone https://github.com/fannysaez/Form-Contact-Php.git
 cd Form-Contact-Php
 ```
-  <img src="/assets/img/Depot Git/screenshot.png"></br>
-
-## Accéder au dossier cloné :
-<img src="/assets/img/Depot Git/screenshot-1.png"></br>
 
 ## Installation de Composer <br>
 
