@@ -1,6 +1,7 @@
-J'ai travaillé sur ce projet avec [**@Anto**](https://github.com/HeyAnto) et aider par le formateur [**@GuillaumePons63**](https://github.com/GuillaumePons63)  Merci :)
+* J'ai travaillé sur ce projet avec [**@Anto**](https://github.com/HeyAnto) 
+* Merci pour l'aide du formateur [**@GuillaumePons63**](https://github.com/GuillaumePons63)
 
-# Formulaire de Contact PHP
+## Formulaire de Contact PHP<br>
 Réalisation d'un formulaire de contact en PHP
 
 ## Description du Projet
@@ -34,7 +35,6 @@ Réalisation d'un formulaire de contact en PHP
 ```
 
 ## Procédure d'installation de git clone
-<br>
 
 ## Cloner le dépôt GitHub :
 - Ouvrez l'invite de commande <b>(cmd)</b> ou <b>Git Bash.</b><br><br>
@@ -46,7 +46,7 @@ git clone https://github.com/fannysaez/Form-Contact-Php.git
 cd Form-Contact-Php
 ```
 
-## Installation de Composer <br>
+# Installation de Composer <br>
 
 ## Étape 1 : Télécharger Composer <br>
 - Sur Windows, téléchargez l'installateur Composer depuis [getcomposer.org.](https://getcomposer.org/Composer-Setup.exe). <br>
@@ -65,7 +65,7 @@ composer install
 composer --version
 ```
 
-## Installation des packages avec Composer <br>
+# Installation des packages avec Composer <br>
 * Si vous démarrez un nouveau projet, initialisez composer dans votre répertoire de projet<br>
 
 ## Étape 1: Initialiser un projet Composer
@@ -131,8 +131,8 @@ composer show vlucas/phpdotenv
 <br>
 
 
-## Utilisation de PhpMailer : </br>
-# Envoi d'e-mail avec SMTP <br>
+# Utilisation de PhpMailer : </br>
+## Envoi d'e-mail avec SMTP <br>
 
 ``` bash
 
@@ -195,7 +195,7 @@ Un dossier <b>vendor</b> et un fichier <b>composer.json</b> doivent maintenant �
 * require : Liste des dépendances du projet.
 * phpmailer/phpmailer": "^6.8" : Installe la version 6.8 ou plus récente.<br>
 
-# 1. Accéder au formulaire de contact php<br>
+## 1. Accéder au formulaire de contact php<br>
 * Ouvrir le fichier 
 ```bash 
 index.php 
@@ -204,7 +204,7 @@ index.php
 
 * Le formulaire est prêt à être utilisé <br>
 
-# 2. Soumettre le formulaire de contact <br>
+## 2. Soumettre le formulaire de contact <br>
 * Remplir les champs requis suivant : <br>
 
 ```bash 
@@ -222,7 +222,7 @@ http://localhost/Form-Contact-Php/traitementMail.php.
 
 * Si tout est bien configuré, tu devrais voir le message "E-mail envoyé avec succès ✅"<br>
 
-# 3. Vérifier l'eamil<br>
+## 3. Vérifier l'e-mail<br>
 Dans le fichier 
 
 ```bash 
