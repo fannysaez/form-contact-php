@@ -196,7 +196,11 @@ Un dossier <b>vendor</b> et un fichier <b>composer.json</b> doivent maintenant �
 * phpmailer/phpmailer": "^6.8" : Installe la version 6.8 ou plus récente.<br>
 
 # 1. Accéder au formulaire de contact php<br>
-* Ouvrir le fichier ```bash index.php ``` <br>
+* Ouvrir le fichier 
+```bash 
+index.php 
+``` 
+<br>
 * Le formulaire est prêt à être utilisé <br>
 
 # 2. Soumettre le formulaire de contact <br>
