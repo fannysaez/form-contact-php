@@ -223,4 +223,10 @@ http://localhost/Form-Contact-Php/traitementMail.php.
 * Si tout est bien configuré, tu devrais voir le message "E-mail envoyé avec succès ✅"<br>
 
 # 3. Vérifier l'eamil<br>
-Dans le fichier ```bash traitementMail.php```, le destinataire à été configuré et recevra un mail avec toutes les informations du formulaire de contact.
+Dans le fichier 
+
+```bash 
+traitementMail.php
+```
+
+, le destinataire à été configuré et recevra un mail avec toutes les informations du formulaire de contact.
