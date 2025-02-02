@@ -211,10 +211,11 @@ index.php
 nom, prénom, email, objet, message
 ```
 
-* Cliquiez sur le bouton <b>Envoyer<b>.
+* Cliquez sur le bouton <b>Envoyer<b>.
 
 # Tester l'envoi d'e-mail :<br>
-* Ouvrez votre navigateur et accédez à 
+* Ouvrez votre navigateur et accédez à
+
 ``` bash
 http://localhost/Form-Contact-Php/traitementMail.php.
 ```
