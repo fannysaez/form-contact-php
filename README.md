@@ -229,4 +229,10 @@ Dans le fichier
 traitementMail.php
 ```
 
-Le destinataire à été configuré et recevra un mail avec toutes les informations du formulaire de contact.
+Le destinataire à été configuré et recevra un mail avec toutes les informations du formulaire de contact.<br>
+
+## Documentations et Guide Utiles
+
+* [**Documentation PHPMailer**](https://github.com/PHPMailer/PHPMailer)
+* [**Documentation PHP dotenv**](https://github.com/vlucas/phpdotenv)
+* [**Guide Composer**](https://getcomposer.org/doc/)
