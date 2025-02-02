@@ -6,10 +6,10 @@ Réalisation d'un formulaire de contact en PHP
 
 ## Description du Projet
 
-* Ce projet est un formulaire de contact simple et sécurisé, développé en PHP. 
-* Il permet aux utilisateurs de saisir leurs informations via au formulaire de contact et d'envoyer ces données via email en utilisant la bibliothèque [**PHPMailer**](https://github.com/PHPMailer/PHPMailer).
-* Le projet utilise également la bibliothèque [**PHP dotenv**](https://github.com/vlucas/phpdotenv) pour charger les variables d'environnement depuis un fichier `.env`. 
-* Ce projet a été réalisé dans le cadre d'un brief "Réaliser un formulaire de contact avec PHP" [**SIMPLON**](https://www.simplon.co/).
+* Ce projet consiste en la création d'un formulaire de contact intuitif et sécurisé, entièrement développé en Php 
+* Il offre  aux utilisateurs la possibilité de renseigner leurs coordonnées via à une interface simple, puis d'envoyer ces informations par e-mail grâce à l'intégration de la bibliothèque [**PHPMailer**](https://github.com/PHPMailer/PHPMailer).
+* Pour une gestion sécurisée des configurations, le projet utilise également la bibliothèque [**PHP dotenv**](https://github.com/vlucas/phpdotenv) permettant de charger les variables d'environnement depuis un fichier `.env`. 
+* Ce travail a été réalisé dans le cadre d'un brief intitulé "Réaliser un formulaire de contact avec Php" [**SIMPLON**](https://www.simplon.co/).
 
 ## Prérequis
 
