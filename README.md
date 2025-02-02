@@ -208,7 +208,7 @@ index.php
 * Remplir les champs requis suivant : <br>
 
 ```bash 
-"nom, prénom, email, objet, message"
+nom, prénom, email, objet, message
 ```
 
 * Cliquiez sur le bouton <b>Envoyer<b>.
