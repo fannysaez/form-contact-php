@@ -35,7 +35,7 @@ Réalisation d'un formulaire de contact en PHP
 
 ## Procédure d'installation de git clone
 
-## Cloner le dépôt GitHub :octocat: :
+## Cloner le dépôt GitHub :
 - Ouvrez l'invite de commande <b>(cmd)</b> ou <b>Git Bash.</b><br><br>
 
 Commencez par cloner le dépôt sur votre machine locale :
