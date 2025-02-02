@@ -13,8 +13,8 @@ Réalisation d'un formulaire de contact en PHP
 
 ## Prérequis
 
-* **PHP 8.3.14** ou supérieur
-* [**Composer 2.8.5**](https://getcomposer.org/) ou supérieur
+* **PHP 8.3.12** ou supérieur
+* [**Composer 2.8.1**](https://getcomposer.org/) ou supérieur
 * Un serveur SMTP pour l'envoi d'emails (ex: Gmail, etc.)
 
 ## 🗂️ Structure du Projet
