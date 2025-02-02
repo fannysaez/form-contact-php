@@ -229,4 +229,4 @@ Dans le fichier
 traitementMail.php
 ```
 
-, le destinataire à été configuré et recevra un mail avec toutes les informations du formulaire de contact.
+Le destinataire à été configuré et recevra un mail avec toutes les informations du formulaire de contact.
