@@ -17,7 +17,7 @@ Réalisation d'un formulaire de contact en PHP
 * [**Composer 2.8.5**](https://getcomposer.org/) ou supérieur
 * Un serveur SMTP pour l'envoi d'emails (ex: Gmail, etc.)
 
-## Structure du Projet
+## 🗂️ Structure du Projet
 
 ```bash
  Form Contact PHP
@@ -25,7 +25,6 @@ Réalisation d'un formulaire de contact en PHP
   ┃ ┣ 📜.env.exemple (modifiez les valeurs)
  ┃ ┣ 📂css
  ┃ ┃ ┗ 📝styles.css
- ┃ ┃ 📂img
  ┣ 📁src
  ┣ ⚙️.gitignore
  ┣ 📜composer.json
