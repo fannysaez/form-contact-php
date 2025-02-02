@@ -201,6 +201,7 @@ Un dossier <b>vendor</b> et un fichier <b>composer.json</b> doivent maintenant �
 index.php 
 ``` 
 <br>
+
 * Le formulaire est prêt à être utilisé <br>
 
 # 2. Soumettre le formulaire de contact <br>
