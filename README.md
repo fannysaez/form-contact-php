@@ -206,13 +206,11 @@ index.php
 
 # 2. Soumettre le formulaire de contact <br>
 * Remplir les champs requis suivant : <br>
-```bash
-nom<br>
-prénom<br>
-email<br>
-objet<br>
-message<br>
+
+```bash 
+"nom, prénom, email, objet, message"
 ```
+
 * Cliquiez sur le bouton <b>Envoyer<b>.
 
 # Tester l'envoi d'e-mail :<br>
