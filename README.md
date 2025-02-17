@@ -38,9 +38,9 @@ Réalisation d'un formulaire de contact en PHP
 ## Cloner le dépôt GitHub :
 - Ouvrez l'invite de commande <b>(cmd)</b> ou <b>Git Bash.</b><br><br>
 
-Commencez par cloner le dépôt sur votre machine locale :<br>
-Une fois le dépôt cloné, il est nécessaire d'installer les dépendances du projet.<br>
-Pour ce faire, exécutez la commande suivante dans le terminal à la racine du projet :<br>
+* Commencez par cloner le dépôt sur votre machine locale :<br>
+* Une fois le dépôt cloné, il est nécessaire d'installer les dépendances du projet.<br>
+* Pour ce faire, exécutez la commande suivante dans le terminal à la racine du projet :<br>
 
 ```bash
 git clone https://github.com/fannysaez/Form-Contact-Php.git
@@ -66,8 +66,7 @@ composer --version
 ```
 
 # Installation des packages avec Composer <br>
-2. Mise en avant des dépendances<br>
-Deux bibliothèques principales sont utilisées dans le projet : PHPMailer et PHP dotenv<br>
+2. Mise en avant des dépendances, deux bibliothèques principales sont utilisées dans le projet : PHPMailer et PHP dotenv<br>
 
 ### Dépendances<br>
 Ce projet utilise les bibliothèques suivantes :
@@ -77,7 +76,7 @@ Ce projet utilise les bibliothèques suivantes :
 
 Ces bibliothèques sont installées via Composer et sont nécessaires pour le bon fonctionnement du formulaire de contact.
 
-3. Liens vers la documentation composer
+3. Liens vers la documentation composer<br>
 Pour plus de détails sur l'utilisation de Composer, consultez la [**documentation officielle de Composer**](https://getcomposer.org/doc/)
 
 ## Étape 1: Installer un projet Composer
