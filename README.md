@@ -44,6 +44,8 @@ Commencez par cloner le dépôt sur votre machine locale :
 git clone https://github.com/fannysaez/Form-Contact-Php.git
 cd Form-Contact-Php
 ```
+Une fois le dépôt cloné, il est nécessaire d'installer les dépendances du projet.<br>
+Pour ce faire, exécutez la commande suivante dans le terminal à la racine du projet :<br>
 
 # Installation de Composer <br>
 
@@ -51,10 +53,6 @@ cd Form-Contact-Php
 - Sur Windows, téléchargez l'installateur Composer depuis [getcomposer.org.](https://getcomposer.org/Composer-Setup.exe). <br>
 
 ## Étape 2: Installer Composer globalement
-
-```bash
-composer install
-```
 
 - L'installateur devrait déjà avoir configuré Composer pour être accessible globalement.</b><br>
 
@@ -65,13 +63,15 @@ composer --version
 ```
 
 # Installation des packages avec Composer <br>
-* Si vous démarrez un nouveau projet, initialisez composer dans votre répertoire de projet<br>
 
-## Étape 1: Initialiser un projet Composer
+* Si vous démarrez un nouveau projet, utilisez composer init, mais dans ce projet, exécutez directement composer install. <br>
+
+## Étape 1: Installer un projet Composer
 
 ```bash
-composer init
+composer install
 ```
+
 
 ## Étape 2: Pour installer PhpMailler, utilisation de la commande suivante :
 
