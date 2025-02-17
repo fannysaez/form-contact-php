@@ -77,6 +77,7 @@ Ce projet utilise les bibliothèques suivantes :
 Ces bibliothèques sont installées via Composer et sont nécessaires pour le bon fonctionnement du formulaire de contact.
 
 3. Liens vers la documentation composer<br>
+
 Pour plus de détails sur l'utilisation de Composer, consultez la [**documentation officielle de Composer**](https://getcomposer.org/doc/)
 
 ## Étape 1: Installer un projet Composer
