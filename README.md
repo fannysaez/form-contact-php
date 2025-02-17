@@ -21,13 +21,13 @@ Réalisation d'un formulaire de contact en PHP
 
 ```bash
  Form Contact PHP
- ┣ 📂assets                  --> Ressources du projet (CSS, configurations, etc.)
+ ┣ 📂assets                  --> Ressources du projet (CSS, etc...)
  ┃ ┣ 📜.env.exemple          --> Exemple de fichier d’environnement (modifiez les valeurs)
  ┃ ┣ 📂css                   --> Dossier contenant les fichiers CSS
  ┃ ┃ ┗ 📝styles.css          --> Feuille de style principale
  ┣ 📂src                     --> Dossier pour le code src (ajoutez vos classes, fonctions, etc.)
  ┣ ⚙️.gitignore              --> Fichier pour exclure certains fichiers/dossiers du dépôt Git
- ┣ 📜composer.json           --> Dépendances du projet (si vous utilisez Composer)
+ ┣ 📜composer.json           --> Dépendances du projet (utilisation de composer)
  ┣ 📜composer.lock           --> Verrouillage des versions des dépendances
  ┣ 📄index.php               --> Page principale contenant le formulaire de contact
  ┗ 📄traitementMail.php      --> Script qui gère l’envoi des emails
