@@ -81,8 +81,8 @@ Ces bibliothèques sont installées via Composer et sont nécessaires pour le bo
 Pour plus de détails sur l'utilisation de Composer, consultez la [**documentation officielle de Composer**](https://getcomposer.org/doc/)<br>
 
 ### Différence entre composer install et composer require<br>
-* composer install : installe toutes les dépendances définies dans le fichier composer.json.
-* composer require [package] : ajoute une nouvelle dépendance au projet (par exemple, composer require phpmailer/phpmailer).
+* [**composer install**] : installe toutes les dépendances définies dans le fichier composer.json.
+* [**composer require** (package)]: ajoute une nouvelle dépendance au projet (par exemple, composer require phpmailer/phpmailer).
 
 ## Étape 1: Installer un projet Composer
 
