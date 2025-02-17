@@ -71,8 +71,8 @@ composer --version
 ### Dépendances<br>
 Ce projet utilise les bibliothèques suivantes :
 
-[**Php Mailler**](PhpMailler) : pour l'envoi de emails via SMTP,<br>
-[**Php dotenv**](Phpdotenv) : pour gérer les variables d'environnement comme les paramètres SMTP.
+[**PhpMailer**](https://github.com/PHPMailer/PHPMailer) : pour l'envoi de emails via SMTP,<br>
+[**Php dotenv**](https://github.com/vlucas/phpdotenv) : pour gérer les variables d'environnement comme les paramètres SMTP.
 
 Ces bibliothèques sont installées via Composer et sont nécessaires pour le bon fonctionnement du formulaire de contact.
 
