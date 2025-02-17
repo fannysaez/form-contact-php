@@ -94,6 +94,7 @@ if (count($errors) > 0) {
         $mail->send();
         echo "Message envoyé avec succès.";
     } catch (Exception $e) {
-        echo "Le message n'a pas pu être envoyé. Erreur: {$mail->ErrorInfo}";
+        echo "Une erreur est survenue lors de l'envoi de l'e-mail. Veuillez réessayer.";
+
     }
 }
