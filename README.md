@@ -47,6 +47,9 @@ git clone https://github.com/fannysaez/Form-Contact-Php.git
 cd Form-Contact-Php
 ```
 
+Cela installera toutes les dépendances définies dans le fichier composer.json, <br>
+telles que PHPMailer et PHP dotenv, et les stockera dans le dossier vendor.
+
 # Installation de Composer <br>
 
 ## Étape 1 : Télécharger Composer <br>
