@@ -13,7 +13,7 @@ Réalisation d'un formulaire de contact en PHP
 
 ## Prérequis
 
-* **PHP 8.3.12** ou supérieur
+* **PHP 8.0** ou supérieur
 * [**Composer 2.8.1**](https://getcomposer.org/) ou supérieur
 * Un serveur SMTP pour l'envoi d'emails (ex: Gmail, etc.)
 
@@ -21,16 +21,16 @@ Réalisation d'un formulaire de contact en PHP
 
 ```bash
  Form Contact PHP
- ┣ 📂assets
-  ┃ ┣ 📜.env.exemple (modifiez les valeurs)
- ┃ ┣ 📂css
- ┃ ┃ ┗ 📝styles.css
- ┣ 📁src
- ┣ ⚙️.gitignore
- ┣ 📜composer.json
- ┣ 📜composer.lock
- ┗ 📄index.php
- ┗ 📄traitementMail.php
+ ┣ 📂assets                  --> Ressources du projet (CSS, configurations, etc.)
+ ┃ ┣ 📜.env.exemple          --> Exemple de fichier d’environnement (modifiez les valeurs)
+ ┃ ┣ 📂css                   --> Dossier contenant les fichiers CSS
+ ┃ ┃ ┗ 📝styles.css          --> Feuille de style principale
+ ┣ 📂src                     --> Dossier pour le code source (ajoutez vos classes, fonctions, etc.)
+ ┣ ⚙️.gitignore              --> Fichier pour exclure certains fichiers/dossiers du dépôt Git
+ ┣ 📜composer.json           --> Dépendances du projet (si vous utilisez Composer)
+ ┣ 📜composer.lock           --> Verrouillage des versions des dépendances
+ ┣ 📄index.php               --> Page principale contenant le formulaire de contact
+ ┗ 📄traitementMail.php      --> Script qui gère l’envoi des emails
 ```
 
 ## Procédure d'installation de git clone
