@@ -69,7 +69,7 @@ composer --version
 2. Mise en avant des dépendances<br>
 Deux bibliothèques principales sont utilisées dans le projet : PHPMailer et PHP dotenv<br>
 
-Dépendances<br>
+### Dépendances<br>
 Ce projet utilise les bibliothèques suivantes :
 
 [**Php Mailler**](PhpMailler) : pour l'envoi de emails via SMTP,<br>
