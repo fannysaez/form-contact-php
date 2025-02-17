@@ -25,7 +25,7 @@ Réalisation d'un formulaire de contact en PHP
  ┃ ┣ 📜.env.exemple          --> Exemple de fichier d’environnement (modifiez les valeurs)
  ┃ ┣ 📂css                   --> Dossier contenant les fichiers CSS
  ┃ ┃ ┗ 📝styles.css          --> Feuille de style principale
- ┣ 📂src                     --> Dossier pour le code source (ajoutez vos classes, fonctions, etc.)
+ ┣ 📂src                     --> Dossier pour le code src (ajoutez vos classes, fonctions, etc.)
  ┣ ⚙️.gitignore              --> Fichier pour exclure certains fichiers/dossiers du dépôt Git
  ┣ 📜composer.json           --> Dépendances du projet (si vous utilisez Composer)
  ┣ 📜composer.lock           --> Verrouillage des versions des dépendances
