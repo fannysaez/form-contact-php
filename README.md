@@ -32,7 +32,7 @@ Réalisation d'un formulaire de contact en PHP
  ┣ 📜composer.lock            --> Verrouillage des versions des dépendances
  ┣ 📄index.md                 --> Page principale du projet, expliquant sa structure et son objectif
  ┣ 📄README.md                --> Fichier d'introduction avec les instructions pour contribuer au projet
- ┗ 📄traitementSQL.php        --> Script qui gère l'exécution des requêtes SQL et l'interaction avec la base de données
+ ┗ 📄traitementMail.php        --> Script qui gère l'exécution des requêtes SQL et l'interaction avec la base de données
 ```
 
 ## Procédure d'installation de git clone
