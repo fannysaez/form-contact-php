@@ -66,6 +66,17 @@ composer --version
 ```
 
 # Installation des packages avec Composer <br>
+2. Mise en avant des dépendances<br>
+Deux bibliothèques principales sont utilisées dans le projet : PHPMailer et PHP dotenv<br><br>
+
+Dépendances
+
+Ce projet utilise les bibliothèques suivantes :
+
+* <b>PHPMailer :</b> pour l'envoi d'emails via SMTP.
+* <b>PHP dotenv :</b> pour gérer les variables d'environnement (comme les paramètres SMTP).
+
+Ces bibliothèques sont installées via Composer et sont nécessaires pour le bon fonctionnement du formulaire de contact.
 
 * Si vous démarrez un nouveau projet, utilisez composer init, mais dans ce projet, exécutez directement composer install. <br>
 
