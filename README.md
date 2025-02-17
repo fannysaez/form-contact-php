@@ -113,11 +113,12 @@ composer require vlucas/phpdotenv
 ## Étape 2: Configuration SMTP pour PhpMailer <br>
 
 ```bash
-
-SMTP_HOST=smtp.exemple.com
-SMTP_USER=ton_email@example.com
-SMTP_PASS=ton_mot_de_passe
-SMTP_PORT=587
+                                                                                                                                 
+MAIL_NAME=""
+MAIL_HOST="sandbox.smtp.mailtrap.io"
+MAIL_USERNAME="67c1f58af19b7b"
+MAIL_PASSWORD="7f3b5130bc58d7"
+MAIL_PORT="2525"
 
 ```
 <br>
@@ -133,10 +134,11 @@ $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
 // Récupération des variables d'environnement
-$mailHost = $_ENV['SMTP_HOST'];
-$mailUser = $_ENV['SMTP_USER'];
-$mailPass = $_ENV['SMTP_PASS'];
-$mailPort = $_ENV['SMTP_PORT'];
+$mailName = $_ENV['MAIL_NAME'];
+$mailHost = $_ENV['MAIL_HOST'];
+$mailUser = $_ENV['MAIL_USERNAME'];
+$mailPass = $_ENV['MAIL_PASSWORD'];
+$mailPort = $_ENV['MAIL_PORT'];
 
 ```
 <br>
