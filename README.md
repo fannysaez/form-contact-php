@@ -72,8 +72,7 @@ Deux bibliothèques principales sont utilisées dans le projet : PHPMailer et PH
 Dépendances<br>
 Ce projet utilise les bibliothèques suivantes :
 
-- [**Php Mailler**](PhpMailler) : pour l'envoi de emails via SMTP.<br>
-- [**Php dotenv**](Php dotenv) : pour gérer les variables d'environnement (comme les paramètres SMTP).
+[**Php Mailler**](PhpMailler) : pour l'envoi de emails via SMTP. [**Php dotenv**](Php dotenv) : pour gérer les variables d'environnement (comme les paramètres SMTP).
 
 Ces bibliothèques sont installées via Composer et sont nécessaires pour le bon fonctionnement du formulaire de contact.
 
