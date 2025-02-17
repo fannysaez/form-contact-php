@@ -21,17 +21,18 @@ Réalisation d'un formulaire de contact en PHP
 
 ```bash
  Form Contact PHP
- ┣ 📂assets                  --> Ressources du projet ( CSS, etc...)
- ┃ ┣ 📂css                   --> Dossier contenant les fichiers CSS
- ┃ ┃ ┗ 📝styles.css          --> Feuille de style principale
- ┣ 📂src                     --> Dossier pour le code source ( ajoute des classes, fonctions etc)
- ┃ 📜.env                    --> Fichier de configuration des variables d'environnements
- ┃ 📜.env.exemple            --> Exemple de fichier de configurations
- ┣ ⚙️.gitignore              --> Fichier pour exclure certains fichiers/dossiers du dépôt Git
- ┣ 📜composer.json           --> Dépendances du projet (utilisation de composer)
- ┣ 📜composer.lock           --> Verrouillage des versions des dépendances
- ┣ 📄index.php               --> Page principale contenant le formulaire de contact
- ┗ 📄traitementMail.php      --> Script qui gère l’envoi des emails
+ ┣ 📂assets                   --> Ressources du projet "images, fichiers CSS, etc".
+ ┃ ┣ 📂css                    --> Dossier contenant les fichiers CSS
+ ┃ ┃ ┗ 📝styles.css           --> Feuille de style principale
+ ┣ 📂src                      --> Dossier pour le code source "ajout de classes, fonctions, etc".
+ ┃ 📜.env                     --> Fichier de configuration des variables d'environnement
+ ┃ 📜.env.exemple             --> Exemple de fichier de configuration
+ ┣ ⚙️.gitignore               --> Fichier pour exclure certains fichiers/dossiers du dépôt Git
+ ┣ 📜composer.json            --> Dépendances du projet (utilisation de Composer)
+ ┣ 📜composer.lock            --> Verrouillage des versions des dépendances
+ ┣ 📄index.md                 --> Page principale du projet, expliquant sa structure et son objectif
+ ┣ 📄README.md                --> Fichier d'introduction avec les instructions pour contribuer au projet
+ ┗ 📄traitementSQL.php        --> Script qui gère l'exécution des requêtes SQL et l'interaction avec la base de données
 ```
 
 ## Procédure d'installation de git clone
