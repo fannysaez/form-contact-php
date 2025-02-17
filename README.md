@@ -78,9 +78,9 @@ Ce projet utilise les bibliothèques suivantes :
 
 Ces bibliothèques sont installées via Composer et sont nécessaires pour le bon fonctionnement du formulaire de contact.
 
-* Si vous démarrez un nouveau projet, utilisez composer init, mais dans ce projet, exécutez directement composer install. <br>
-
 ## Étape 1: Installer un projet Composer
+
+* Si vous démarrez un nouveau projet, utilisez composer init, mais dans ce projet, exécutez directement composer install. <br>
 
 ```bash
 composer install
