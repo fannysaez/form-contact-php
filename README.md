@@ -193,9 +193,8 @@ composer show vlucas/phpdotenv
 
 ## Envoi d'e-mail avec SMTP <br>
 
-```env
+```php
 
-<?php
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -229,8 +228,6 @@ try {
     } catch (Exception $e) {
         echo "Une erreur est survenue lors de l'envoi de l'e-mail. Veuillez réessayer.";
     }
-    }
-}?>
 
 ```
 
@@ -245,7 +242,7 @@ try {
 
 Un dossier <b>vendor</b> et un fichier <b>composer.json</b> doivent maintenant être présents dans votre projet.<br>
 
-```bash
+```json
 {
     "require": {
         "phpmailer/phpmailer": "^6.8"
