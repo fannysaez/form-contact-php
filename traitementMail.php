@@ -1,5 +1,4 @@
 <?php
-
 // Import PHPMailer classes into the global namespace
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
@@ -43,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if (count($errors) > 0) {
         foreach ($errors as $error) {
-            echo "<p>$error</p>";
+            echo "<p class='error'>$error</p>";
         }
     } else {
         // Envoi de l'email
@@ -71,6 +70,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Encodage des caractères
             $mail->CharSet = "UTF-8";
             $mail->Encoding = "base64";
+
             // Content
             $mail->isHTML(true);
             $mail->Subject = $objet;
@@ -78,9 +78,35 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $mail->AltBody = "Prénom: $prenom\nNom: $nom\nEmail: $email\nMessage: $message";
 
             $mail->send();
-            echo "Message envoyé avec succès.";
+            echo '<p class="success">Message envoyé avec succès.</p>';
         } catch (Exception $e) {
-            echo "Une erreur est survenue lors de l'envoi de l'e-mail. Veuillez réessayer.";
+            echo '<p class="error">Une erreur est survenue lors de l\'envoi de l\'e-mail. Veuillez réessayer.</p>';
         }
     }
-}?>
+}
+
+// Ajouter le CSS pour styliser les messages
+echo '
+<style>
+    .success {
+        color: green;
+        font-weight: bold;
+        padding: 10px;
+        border: 1px solid green;
+        background-color: #e6ffe6;
+        border-radius: 5px;
+        margin: 10px 0;
+        text-align:center;
+    }
+    .error {
+        color: red;
+        font-weight: bold;
+        padding: 10px;
+        border: 1px solid red;
+        background-color: #ffe6e6;
+        border-radius: 5px;
+        margin: 10px 0;
+        text-align:center;
+    }
+</style>
+';
