@@ -68,6 +68,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $mail->addAddress('joe@example.net', 'Joe User'); // Adresse du destinataire
             $mail->addReplyTo($email, $nom); // Adresse de réponse
 
+            // Encodage des caractères
+            $mail->CharSet = "UTF-8";
+            $mail->Encoding = "base64";
             // Content
             $mail->isHTML(true);
             $mail->Subject = $objet;
@@ -80,4 +83,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo "Une erreur est survenue lors de l'envoi de l'e-mail. Veuillez réessayer.";
         }
     }
-}
+}?>
