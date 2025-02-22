@@ -25,7 +25,6 @@ Réalisation d'un formulaire de contact en PHP
  ┃ ┣ 📂css                    --> Dossier contenant les fichiers CSS
  ┃ ┃ ┗ 📝styles.css           --> Feuille de style principale
  ┣ 📂src                      --> Dossier pour le code source "ajout de classes, fonctions, etc".
- ┃ 📜.env                     --> Fichier de configuration des variables d'environnement
  ┃ 📜.env.exemple             --> Exemple de fichier de configuration
  ┣ ⚙️.gitignore               --> Fichier pour exclure certains fichiers/dossiers du dépôt Git
  ┣ 📜composer.json            --> Dépendances du projet (utilisation de Composer)
