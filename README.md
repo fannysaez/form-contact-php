@@ -135,7 +135,7 @@ MAIL_PORT="2525"
 
 Créez un fichier <b>.env</b> à la racine de votre projet et ajoutez les variables d'environnement :<br>
 
-```env
+```php
 
 require __DIR__ . '/vendor/autoload.php';
 
