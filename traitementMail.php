@@ -78,9 +78,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $mail->AltBody = "Prénom: $prenom\nNom: $nom\nEmail: $email\nMessage: $message";
 
             $mail->send();
-            echo '<p class="success">Message envoyé avec succès.</p>';
+            echo '<p class="success"> ✅ Message envoyé avec succès.</p>';
         } catch (Exception $e) {
-            echo '<p class="error">Une erreur est survenue lors de l\'envoi de l\'e-mail. Veuillez réessayer.</p>';
+            echo '<p class="error"> ❌ Une erreur est survenue lors de l\'envoi de l\'e-mail. Veuillez réessayer.</p>';
         }
     }
 }
