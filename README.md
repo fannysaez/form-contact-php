@@ -91,31 +91,32 @@ Pour plus de détails sur l'utilisation de Composer, consultez la [**documentati
 - **composer install** : installe toutes les dépendances définies dans le fichier composer.json.
 - **composer require** (package): ajoute une nouvelle dépendance au projet (par exemple, composer require phpmailer/phpmailer).
 
-## Étape 1: Installer un projet Composer
+## Installation des dépendances Composer
 
-- Si vous démarrez un nouveau projet, utilisez composer init, mais dans ce projet, exécutez directement composer install. <br>
+**Méthode recommandée (installe tout d'après composer.json) :**
 
 ```bash
 composer install
 ```
 
-## Étape 2: Pour installer PhpMailler, utilisation de la commande suivante :
+**Ou pour installer directement les dépendances principales si besoin (ex : projet vierge ou ajout manuel) :**
 
 ```bash
-composer require phpmailer/phpmailer
+composer require phpmailer/phpmailer vlucas/phpdotenv
 ```
 
-Cela ajoutera PhpMailer à votre projet et créera un fichier <b> composer.json </b> et un dossier <b> vendor </b><br>
+> **Remarque :** `composer install` suffit si le fichier composer.json est déjà présent. La commande `composer require ...` est utile pour ajouter ces dépendances à un projet existant ou si tu repars de zéro.
 
-# Configuration des variable d'environnements avec .env <br>
+---
 
-## Étape 1: Installer vlucas/phpdotenv <br>
+**Remarques importantes :**
 
-Pour gérez les variables d'environnements, utilisation du package <b>vlucas/phpdotenv</b><br>
+- Un simple `composer install` suffit à installer toutes les dépendances nécessaires (PHPMailer, PHP dotenv, etc.).
+- Ne publiez jamais d’identifiants SMTP ou d’informations sensibles dans la documentation ou sur un dépôt public.
+- Le mail du destinataire doit être configuré via la variable d’environnement `MAIL_TO` pour plus de souplesse.
+- L’exemple d’utilisation de PHPMailer fourni est fonctionnel et à jour.
 
-```bash
-composer require vlucas/phpdotenv
-```
+---
 
 ## Étape 2: Configuration SMTP pour PhpMailer <br>
 
@@ -244,11 +245,10 @@ Un dossier <b>vendor</b> et un fichier <b>composer.json</b> doivent maintenant �
 
 ```json
 {
-    "require": {
-        "phpmailer/phpmailer": "^6.8"
-    }
+  "require": {
+    "phpmailer/phpmailer": "^6.8"
+  }
 }
-
 ```
 
 <br>
