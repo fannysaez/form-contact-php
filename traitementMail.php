@@ -7,7 +7,8 @@ use PHPMailer\PHPMailer\Exception;
 // Load Composer's autoloader
 require 'vendor/autoload.php';
 
-function clearInput($data) {
+function clearInput($data)
+{
     $data = trim($data);
     $data = stripslashes($data);
     $data = htmlspecialchars($data);
@@ -64,7 +65,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             // Recipients
             $mail->setFrom($email, $_ENV['MAIL_NAME']); // Utiliser MAIL_NAME pour le nom de l'expéditeur
-            $mail->addAddress('joe@example.net', 'Joe User'); // Adresse du destinataire
+            // $mail->addAddress('joe@example.net', 'Joe User'); // Adresse du destinataire
+            $mail->addAddress($_ENV['MAIL_TO']); // Adresse du destinataire depuis la variable d'environnement
             $mail->addReplyTo($email, $nom); // Adresse de réponse
 
             // Encodage des caractères
